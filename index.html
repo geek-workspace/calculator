@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <meta name="description" content="A clean, modern, and animated calculator built with HTML, CSS, and JavaScript." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <main class="calculator-wrapper">
+    <div class="calculator" id="calculator">
+      <!-- Display -->
+      <div class="display" id="display">
+        <div class="expression" id="expression"></div>
+        <div class="result" id="result">0</div>
+      </div>
+
+      <!-- Buttons Grid -->
+      <div class="buttons">
+        <!-- Row 1 -->
+        <button class="btn btn-func" id="btn-ac" data-action="clear">AC</button>
+        <button class="btn btn-func" id="btn-sign" data-action="sign">+/−</button>
+        <button class="btn btn-func" id="btn-percent" data-action="percent">%</button>
+        <button class="btn btn-op" id="btn-div" data-action="operator" data-value="÷">÷</button>
+
+        <!-- Row 2 -->
+        <button class="btn btn-num" id="btn-7" data-action="number" data-value="7">7</button>
+        <button class="btn btn-num" id="btn-8" data-action="number" data-value="8">8</button>
+        <button class="btn btn-num" id="btn-9" data-action="number" data-value="9">9</button>
+        <button class="btn btn-op" id="btn-mul" data-action="operator" data-value="×">×</button>
+
+        <!-- Row 3 -->
+        <button class="btn btn-num" id="btn-4" data-action="number" data-value="4">4</button>
+        <button class="btn btn-num" id="btn-5" data-action="number" data-value="5">5</button>
+        <button class="btn btn-num" id="btn-6" data-action="number" data-value="6">6</button>
+        <button class="btn btn-op" id="btn-sub" data-action="operator" data-value="−">−</button>
+
+        <!-- Row 4 -->
+        <button class="btn btn-num" id="btn-1" data-action="number" data-value="1">1</button>
+        <button class="btn btn-num" id="btn-2" data-action="number" data-value="2">2</button>
+        <button class="btn btn-num" id="btn-3" data-action="number" data-value="3">3</button>
+        <button class="btn btn-op" id="btn-add" data-action="operator" data-value="+">+</button>
+
+        <!-- Row 5 -->
+        <button class="btn btn-num btn-zero" id="btn-0" data-action="number" data-value="0">0</button>
+        <button class="btn btn-num" id="btn-dot" data-action="decimal">.</button>
+        <button class="btn btn-eq" id="btn-eq" data-action="equals">=</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
