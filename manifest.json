@@ -1,10 +1,10 @@
 {
-  "name": "Calculator App",
+  "name": "Geek Calculator",
   "short_name": "Calculator",
-  "start_url": "index.html",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#0d0d1a",
-  "theme_color": "#6c63ff",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0b0f1a",
   "orientation": "portrait",
   "icons": [
     {
@@ -17,5 +17,13 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "id": "geekcalculator",
+  "description": "Geek Calculator is A fast, simple, and reliable calculator for everyday use. Whether you're solving quick math problems or working on daily calculations, it offers a clean design and seamless experience.\n\nKey Features:\n\nBasic operations: addition, subtraction, multiplication, and division\nResponsive and easy-to-use interface\nFast and accurate results\nWorks smoothly on all devices\nLightweight and accessible anytime, anywhere",
+  "lang": "en",
+  "prefer_related_applications": false,
+  "categories": [
+    "productivity",
+    "utilities"
   ]
 }
