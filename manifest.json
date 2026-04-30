@@ -8,12 +8,12 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/sibhathullamkd/imgpack/refs/heads/main/clipart2175771.png",
+      "src": "https://raw.githubusercontent.com/geek-workspace/calculator/refs/heads/main/clculator.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://raw.githubusercontent.com/sibhathullamkd/imgpack/refs/heads/main/clipart2175771.png",
+      "src": "https://raw.githubusercontent.com/geek-workspace/calculator/refs/heads/main/clculator.png",
       "sizes": "512x512",
       "type": "image/png"
     }
